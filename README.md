@@ -1,18 +1,23 @@
-## Getting Started
+# Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um programa simples em Java que solicita ao usuário dois parâmetros inteiros e imprime os números dentro do intervalo especificado por esses parâmetros.
 
-## Folder Structure
+## Como Usar
 
-The workspace contains two folders by default, where:
+1. Compile o programa utilizando um compilador Java.
+2. Execute o programa e siga as instruções no terminal para inserir os parâmetros.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Verificação de entrada: O programa verifica se os parâmetros inseridos pelo usuário são inteiros válidos.
+- Verificação de intervalo: O programa garante que o segundo parâmetro seja maior que o primeiro, lançando uma exceção personalizada se isso não for atendido.
+- Impressão de números: O programa imprime os números dentro do intervalo especificado.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Requisitos
 
-## Dependency Management
+- Java Development Kit (JDK)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
